@@ -16,6 +16,7 @@ void test()
     printf("%d ", a);
 }
 
+extern int year;
 int main()
 {
 
@@ -25,6 +26,8 @@ int main()
         i++;
         test();
     }
+
+    printf("\n year: %d", year);
     
     return 0;
 }
